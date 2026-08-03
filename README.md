@@ -1,6 +1,6 @@
 # First-Loan AI Pre-Review Assistant
 
-An engineering-oriented MVP for first-time small and micro business loan applications. The system covers customer and application management, document uploads with Mock OCR, CSV transaction imports, metric calculation, a rule DSL, Mock AI business analysis, pre-review reports, a human approval gate, Mock LMS archiving, in-app notifications, and audit logs. AI is used only to assist analysis; every acceptance action must be completed by a human operator.
+An engineering-oriented MVP for first-time small and micro business loan applications. The system covers customer and application management, document uploads with OCR, CSV transaction imports, metric calculation, a rule DSL, AI business analysis, pre-review reports, a human approval gate, LMS archiving, in-app notifications, and audit logs. AI is used only to assist analysis; every acceptance action must be completed by a human operator.
 
 ## Current Highlights
 
