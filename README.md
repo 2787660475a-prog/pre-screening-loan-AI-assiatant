@@ -127,8 +127,3 @@ Sign in
 
 Core security controls include JWT authentication, server-side RBAC, a 20 MB upload limit, a MIME-type allowlist, SHA-256 hashing, path isolation, structured model-output validation, trusted local RAG sources, and rule execution without `eval`. Demo thresholds, knowledge content, and scores do not represent actual bank policies.
 
-## Current Limitations
-
-The bundled RAG implementation uses local sparse retrieval rather than production embeddings or a vector database. XLSX transaction parsing, production OCR and LLM integrations, and WeCom notifications remain adapter extension points. The asynchronous worker is represented by a Mock process in the MVP.
-
-Future integrations may include production Celery tasks, the MinIO SDK, Alembic migrations, embedding models, pgvector or Milvus, OpenAI-compatible models, PaddleOCR, and WeCom webhooks.
